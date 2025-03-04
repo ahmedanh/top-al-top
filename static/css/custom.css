@@ -1,0 +1,181 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Cards */
+.card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Grid */
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* List styles */
+.list-item {
+    background-color: #444;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.list-item:hover {
+    background-color: #555;
+}
+
+/* Hero section */
+.hero {
+    background-color: #333;
+    padding: 4rem 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Form styles */
+form {
+    background: #333;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: #444;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button {
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #666;
+}
+
+/* Image placeholders */
+.img-placeholder {
+    background: #444;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s;
+}
+
+.img-placeholder:hover {
+    background: #555;
+}
+
+.placeholder-text {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Adding to existing CSS */
+.gallery-image {
+    width: 100%;
+    height: 200px;
+    background: #444;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}

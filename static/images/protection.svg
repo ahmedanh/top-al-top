@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Shield -->
+  <path d="M 200 50 L 300 100 L 300 200 L 200 250 L 100 200 L 100 100 Z" 
+        fill="none" stroke="#0056b3" stroke-width="3"/>
+  
+  <!-- Server icon -->
+  <rect x="180" y="120" width="40" height="60" fill="#444"/>
+  
+  <!-- Protection text -->
+  <text x="200" y="280" fill="white" text-anchor="middle">DDOS Protection</text>
+</svg>

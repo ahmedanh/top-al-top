@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Server -->
+  <rect x="300" y="100" width="60" height="100" fill="#444" />
+  <text x="330" y="220" fill="white" text-anchor="middle">Server</text>
+  
+  <!-- Attacking computers -->
+  <rect x="40" y="40" width="40" height="30" fill="#666" />
+  <rect x="40" y="135" width="40" height="30" fill="#666" />
+  <rect x="40" y="230" width="40" height="30" fill="#666" />
+  
+  <!-- Attack arrows -->
+  <line x1="80" y1="55" x2="300" y2="150" stroke="red" stroke-width="2" />
+  <line x1="80" y1="150" x2="300" y2="150" stroke="red" stroke-width="2" />
+  <line x1="80" y1="245" x2="300" y2="150" stroke="red" stroke-width="2" />
+  
+  <text x="200" y="280" fill="white" text-anchor="middle">DDOS Attack Flow</text>
+</svg>

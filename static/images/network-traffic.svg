@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Normal Traffic -->
+  <path d="M 50 250 C 100 250, 150 100, 200 100" stroke="green" fill="none" stroke-width="2"/>
+  <text x="100" y="50" fill="white">Normal Traffic</text>
+  
+  <!-- Attack Traffic -->
+  <path d="M 200 100 C 250 100, 300 250, 350 250" stroke="red" fill="none" stroke-width="4"/>
+  <text x="300" y="50" fill="white">Attack Traffic</text>
+  
+  <!-- Time markers -->
+  <line x1="50" y1="270" x2="350" y2="270" stroke="white" stroke-width="1"/>
+  <text x="200" y="290" fill="white" text-anchor="middle">Time</text>
+</svg>
